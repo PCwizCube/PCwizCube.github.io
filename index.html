@@ -1,4 +1,5 @@
 <html>
+
 	<head>
 		<title>Felix Kung</title>
 		<style>
@@ -7,6 +8,13 @@
 			}
 		</style>
 		<script type="text/javascript" src="hello.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type-"text/javascript">
+			$("document").ready(function(){
+				alert("Hello jQuery");
+					$("button").hide().fadeIn();
+			});
+		</script>
 	</head>
 
 	<body>
@@ -16,4 +24,5 @@
 		<button onclick='alert("Hello World");'>Click Me!</button>
 		<button onclick='technoblogical();'>Click Me!</button>
 	</body>
+
 </html>
